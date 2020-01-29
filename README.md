@@ -1,3 +1,4 @@
+# qa-test-hf
 ## Running the tests
 * Open the testng.xml
 * Right click on the xml file
@@ -15,9 +16,11 @@
 
 
 
+
 ##############################
 ## Running the api tests
 * Open the api.xml
 * Right click on the xml file
 * Click on Run as
 * Select Run as TestNG Suite
+
