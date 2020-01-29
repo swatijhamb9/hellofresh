@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.hellofresh.challenge.WebTest" time="70.33" errors="0" skipped="0">
+<testsuite tests="0" failures="0" name="com.hellofresh.challenge.WebTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/swajhamb/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf15515829558735770364.tmp"/>
+    <property name="classworlds.conf" value="/Users/swajhamb/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf15711358453085290805.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/swajhamb/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -38,7 +38,7 @@
     <property name="java.class.path" value="/Users/swajhamb/Desktop/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623/jars/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -52,7 +52,4 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.hellofresh.challenge.WebTest" name="signInTest" time="17.827"/>
-  <testcase classname="com.hellofresh.challenge.WebTest" name="checkoutTest" time="36.234"/>
-  <testcase classname="com.hellofresh.challenge.WebTest" name="logInTest" time="16.269"/>
 </testsuite>

@@ -67,5 +67,13 @@ public class Utility {
 	        System.out.println(saltStr);
 	        return saltStr;
    }
+	
+	public static int generateRandomNo() {
+		double randomDouble = Math.random();
+		randomDouble = randomDouble * 200 + 1;
+		int randomInt = (int) randomDouble;
+		System.out.println(randomInt);
+		return randomInt;
+	   }
 
 }

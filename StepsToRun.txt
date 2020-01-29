@@ -13,3 +13,11 @@
 * extentreports - to genrate the readable report
 * poi and poi-ooxml - to read from excel
 
+
+
+##############################
+## Running the api tests
+* Open the api.xml
+* Right click on the xml file
+* Click on Run as
+* Select Run as TestNG Suite

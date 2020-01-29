@@ -1,158 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="3" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Setting up reports and test getting ready]]>
-    </line>
-    <line>
-      <![CDATA[Test Setup done and test can be stated]]>
-    </line>
-    <line>
-      <![CDATA[Getting application ready]]>
-    </line>
-    <line>
-      <![CDATA[Browser and application is up and running]]>
-    </line>
-    <line>
-      <![CDATA[Test is about to end]]>
-    </line>
-    <line>
-      <![CDATA[Report generated]]>
-    </line>
-    <line>
-      <![CDATA[Getting application ready]]>
-    </line>
-    <line>
-      <![CDATA[Browser and application is up and running]]>
-    </line>
-    <line>
-      <![CDATA[Test is about to end]]>
-    </line>
-    <line>
-      <![CDATA[Report generated]]>
-    </line>
-    <line>
-      <![CDATA[Getting application ready]]>
-    </line>
-    <line>
-      <![CDATA[Browser and application is up and running]]>
-    </line>
-    <line>
-      <![CDATA[Test is about to end]]>
-    </line>
-    <line>
-      <![CDATA[Report generated]]>
-    </line>
   </reporter-output>
-  <suite started-at="2020-01-27T21:10:14Z" name="Parallel_Testing" finished-at="2020-01-27T21:11:12Z" duration-ms="57655">
+  <suite started-at="2020-01-29T21:24:23Z" name="Suite" finished-at="2020-01-29T21:24:27Z" duration-ms="3945">
     <groups>
     </groups>
-    <test started-at="2020-01-27T21:10:14Z" name="Test" finished-at="2020-01-27T21:11:12Z" duration-ms="57655">
-      <class name="com.hellofresh.tests.VerifySignIn">
-        <test-method is-config="true" signature="readFromExcel()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:14Z" name="readFromExcel" finished-at="2020-01-28T01:10:14Z" duration-ms="521" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Setting up reports and test getting ready]]>
-            </line>
-            <line>
-              <![CDATA[Test Setup done and test can be stated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- readFromExcel -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:14Z" name="setUp" finished-at="2020-01-28T01:10:22Z" duration-ms="8066" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Getting application ready]]>
-            </line>
-            <line>
-              <![CDATA[Browser and application is up and running]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="signInTest()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:22Z" name="signInTest" finished-at="2020-01-28T01:10:31Z" duration-ms="8278" status="PASS">
+    <test started-at="2020-01-29T21:24:23Z" name="Test" finished-at="2020-01-29T21:24:27Z" duration-ms="3945">
+      <class name="com.hellofresh.api.getBookings">
+        <test-method signature="test_get_response()[pri:0, instance:com.hellofresh.api.getBookings@6da21078]" started-at="2020-01-30T01:24:23Z" name="test_get_response" finished-at="2020-01-30T01:24:25Z" duration-ms="1958" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signInTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:31Z" name="tearDownMethod" finished-at="2020-01-28T01:10:31Z" duration-ms="362" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=signInTest status=SUCCESS method=VerifySignIn.signInTest()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test is about to end]]>
-            </line>
-            <line>
-              <![CDATA[Report generated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:31Z" name="setUp" finished-at="2020-01-28T01:10:39Z" duration-ms="8344" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Getting application ready]]>
-            </line>
-            <line>
-              <![CDATA[Browser and application is up and running]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="logInTest()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:39Z" name="logInTest" finished-at="2020-01-28T01:10:45Z" duration-ms="5833" status="PASS">
+        </test-method> <!-- test_get_response -->
+        <test-method signature="test_post_response()[pri:0, instance:com.hellofresh.api.getBookings@6da21078]" started-at="2020-01-30T01:24:25Z" name="test_post_response" finished-at="2020-01-30T01:24:25Z" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:45Z" name="tearDownMethod" finished-at="2020-01-28T01:10:45Z" duration-ms="117" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=logInTest status=SUCCESS method=VerifySignIn.logInTest()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test is about to end]]>
-            </line>
-            <line>
-              <![CDATA[Report generated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:45Z" name="setUp" finished-at="2020-01-28T01:10:53Z" duration-ms="8000" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Getting application ready]]>
-            </line>
-            <line>
-              <![CDATA[Browser and application is up and running]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="checkoutTest()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:10:53Z" name="checkoutTest" finished-at="2020-01-28T01:11:12Z" duration-ms="18515" status="PASS">
+        </test-method> <!-- test_post_response -->
+        <test-method signature="test_get_booking()[pri:0, instance:com.hellofresh.api.getBookings@6da21078]" started-at="2020-01-30T01:24:25Z" name="test_get_booking" finished-at="2020-01-30T01:24:26Z" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkoutTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f]" started-at="2020-01-28T01:11:12Z" name="tearDownMethod" finished-at="2020-01-28T01:11:12Z" duration-ms="128" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=VerifySignIn.checkoutTest()[pri:0, instance:com.hellofresh.tests.VerifySignIn@2a54a73f] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test_get_booking -->
+        <test-method signature="test_error_response()[pri:0, instance:com.hellofresh.api.getBookings@6da21078]" started-at="2020-01-30T01:24:26Z" name="test_error_response" finished-at="2020-01-30T01:24:27Z" duration-ms="957" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Test is about to end]]>
-            </line>
-            <line>
-              <![CDATA[Report generated]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-      </class> <!-- com.hellofresh.tests.VerifySignIn -->
+        </test-method> <!-- test_error_response -->
+      </class> <!-- com.hellofresh.api.getBookings -->
     </test> <!-- Test -->
-  </suite> <!-- Parallel_Testing -->
+  </suite> <!-- Suite -->
 </testng-results>

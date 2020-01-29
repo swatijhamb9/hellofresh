@@ -3,14 +3,11 @@
 <suite parallel="none" name="Failed suite [Suite]">
   <test parallel="none" name="Test(failed)">
     <classes>
-      <class name="com.hellofresh.tests.VerifySignIn">
+      <class name="com.hellofresh.api.getBookings">
         <methods>
-          <include name="logInTest"/>
-          <include name="setUp"/>
-          <include name="readFromExcel"/>
-          <include name="tearDownMethod"/>
+          <include name="test_get_booking"/>
         </methods>
-      </class> <!-- com.hellofresh.tests.VerifySignIn -->
+      </class> <!-- com.hellofresh.api.getBookings -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
